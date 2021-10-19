@@ -34,7 +34,7 @@ class ProjectController extends Controller
 
 
         request()->validate([
-            'images' => 'required|max:2048'
+            'images' => 'required'
         ]);
 
         //dd(request()->images);

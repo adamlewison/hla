@@ -5,8 +5,6 @@
 @import 'variables';
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
 
-.form-control {
-    box-shadow: none !important;
-}
+@import '~bootstrap/scss/bootstrap';
+@import '~spiceysprite/resources/scss/hype';
